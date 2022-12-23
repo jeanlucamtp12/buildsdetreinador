@@ -1,11 +1,25 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient( #5e0161, #53025a) repeat;
+    background: linear-gradient( #5e0161, #53025a)repeat;
+
     overflow-x: hidden;
    
 
 }
+
+#brilho{
+    position: absolute;
+    width: 200%; 
+    z-index: 0;
+}
+
+#brilho2{
+    position: absolute;
+    width: 160%; 
+    z-index: 0;
+}
+
 
 .navbar-nav a{
     margin-top: 0.2%;
@@ -34,9 +48,11 @@ body {
     width: 100%;
     height: 90%;
     background-color: rgb(50, 2, 82);
-    z-index: -1;
-    
+    z-index: 1;
 }
+
+
+
 
 
 .fundoBuilds{
@@ -44,14 +60,13 @@ body {
     width: 100%;
     height: 90%;
     background-color: rgb(42, 0, 70);
-    z-index: -1;
+    z-index: 1;
 }
 .fundoClasses{
     position: relative;
     width: 100%;
     height: 90%;
     background-color: rgb(72, 23, 102);
-    z-index: -1;
 }
 
 .fundoRodape{
@@ -59,7 +74,6 @@ body {
     width: 100%;
     height: 90%;
     background-color: rgb(38, 0, 65);
-    z-index: -2;
 }
 
 
@@ -138,7 +152,7 @@ body {
     width: 20%;
     right: -5%;
     bottom: 0%;
-    z-index: 2;
+    z-index: 1;
 }
 #clefable:hover{
     transform: translate(10px, 2%);
@@ -148,7 +162,7 @@ body {
     width: 18%;
     left: -5%;
     top: 50%;
-    z-index: 2;
+    z-index: 1;
 }
 #wiggly:hover{
     transform: translate(10px, 2%);
@@ -158,7 +172,7 @@ body {
     width: 20%;
     left: -4%;
     top: 15%;
-    z-index: 2;
+    z-index: 1;
 }
 #venusaur:hover{
     transform: translate(10px, 2%);
@@ -170,7 +184,7 @@ body {
     width: 16.5%;
     left: -5%;
     top: 8%;
-    z-index: 2;
+    z-index: 1;
 }
 #greedent:hover{
     transform: translate(10px, 2%);
@@ -180,7 +194,7 @@ body {
     width: 13%;
     right: 10%;
     top: 5%;
-    z-index: 2;
+    z-index: 1;
 }
 #eldegoss:hover{
     transform: translate(10px, 2%);
@@ -190,7 +204,7 @@ body {
     width: 15%;
     right: 0%;
     top: 80%;
-    z-index: 2;
+    z-index: 1;
 }
 #dragapult:hover{
     transform: translate(10px, 2%);
@@ -201,7 +215,7 @@ body {
     width: 15%;
     right: 0%;
     bottom: 0%;
-    z-index: 2;
+    z-index: 1;
 }
 #comfey:hover{
     transform: translate(10px, 2%);
@@ -211,7 +225,7 @@ body {
     width: 18%;
     left: -3%;
     top: 50%;
-    z-index: 2;
+    z-index: 1;
 }
 #talonflame:hover{
     transform: translate(10px, 2%);
@@ -221,7 +235,6 @@ body {
     width: 18%;
     left: 60%;
     top: -2%;
-    z-index: 0;
 }
 #sableye:hover{
     transform: translate(10px, 2%);
@@ -243,7 +256,7 @@ body {
     width: 120%;
     right: 120%;
     top: 0%;
-    z-index: 2;
+    z-index: 1;
 }
 #tyranitar:hover{
     transform: translate(10px, 2%);
@@ -253,18 +266,14 @@ body {
     width: 30%;
     left: 3%;
     bottom: 0%;
-    z-index: 2;
+    z-index: 1;
 }
 #slowbro:hover{
     transform: translate(10px, 2%);
 }
 
 
-#brilho{
-    position: absolute;
-    width: 200%; 
-    z-index: 0;
-}
+
 
 .fundoBuilds .card {
     border-radius: 5%;
@@ -299,7 +308,6 @@ body {
     width: 100%; 
     height: 70%;
     background-color: rgb(65, 17, 95);
-    z-index: -1;
 }
 .cardVideo{
     position: absolute;
@@ -309,11 +317,9 @@ body {
 }
 
 .card{
-    z-index: 1;
 }
 
 .card-body{
-    z-index: 2;
 }
 
 .cardNoticias{
