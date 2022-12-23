@@ -1,0 +1,346 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( #5e0161, #53025a) repeat;
+    overflow-x: hidden;
+   
+
+}
+
+.navbar-nav a{
+    margin-top: 0.2%;
+    font-size: 150%;
+
+}
+
+
+.tituloCarrosel{
+    font-size: 300%;
+    font-family:fantasy;
+    color: #ffffff;
+}
+
+.card:hover{
+	transform: scale(1.2);
+}
+
+
+#noticias:hover{
+	transform: scale(1);
+}
+
+.fundoNoticias{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    background-color: rgb(50, 2, 82);
+    z-index: -1;
+    
+}
+
+
+.fundoBuilds{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    background-color: rgb(42, 0, 70);
+    z-index: -1;
+}
+.fundoClasses{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    background-color: rgb(72, 23, 102);
+    z-index: -1;
+}
+
+.fundoRodape{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    background-color: rgb(38, 0, 65);
+    z-index: -2;
+}
+
+
+.noticias{
+    margin-top: 3%;
+    margin-left: 6%;
+    width: 22%;
+    font-family: fantasy;
+    display: inline-block; margin-top: 3%;
+    margin-left: 6%;
+    padding: 10px 30px;
+    background-color:  #510058;
+    color: rgb(255, 255, 255);
+    border-radius: 90px;
+    
+
+}
+
+.classes{
+    margin-top: 3%;
+    margin-left: 6%;
+    width: 20%;
+    font-family: fantasy;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color:  #510058;
+    color: rgb(255, 255, 255);
+    border-radius: 90px;
+
+}
+
+.video{
+    margin: 8%;
+    margin-top: 2%;
+    width: 22%;
+    font-family: fantasy;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color:  #510058;
+    color: rgb(255, 255, 255);
+    border-radius: 90px;
+
+}
+
+.builds{
+    margin: 8%;
+    margin-top: 2%;    
+    width: 22%;
+    font-family: fantasy;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  #510058;
+    color: rgb(255, 255, 255);
+    border-radius: 90px;
+
+}
+
+.more{
+    margin-top: 2%;
+    font-family: fantasy;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  #510058;
+    color: rgb(255, 255, 255);
+    border-radius: 90px;
+
+}
+
+#item{
+    width: 20%;
+    margin-bottom: 4%;
+}
+
+#clefable{
+    position: absolute;
+    width: 20%;
+    right: -5%;
+    bottom: 0%;
+    z-index: 2;
+}
+#clefable:hover{
+    transform: translate(10px, 2%);
+}
+#wiggly{
+    position: absolute;
+    width: 18%;
+    left: -5%;
+    top: 50%;
+    z-index: 2;
+}
+#wiggly:hover{
+    transform: translate(10px, 2%);
+}
+#venusaur{
+    position: absolute;
+    width: 20%;
+    left: -4%;
+    top: 15%;
+    z-index: 2;
+}
+#venusaur:hover{
+    transform: translate(10px, 2%);
+}
+
+
+#greedent{
+    position: absolute;
+    width: 16.5%;
+    left: -5%;
+    top: 8%;
+    z-index: 2;
+}
+#greedent:hover{
+    transform: translate(10px, 2%);
+}
+#eldegoss{
+    position: absolute;
+    width: 13%;
+    right: 10%;
+    top: 5%;
+    z-index: 2;
+}
+#eldegoss:hover{
+    transform: translate(10px, 2%);
+}
+#dragapult{
+    position: absolute;
+    width: 15%;
+    right: 0%;
+    top: 80%;
+    z-index: 2;
+}
+#dragapult:hover{
+    transform: translate(10px, 2%);
+}
+
+#comfey{
+    position: absolute;
+    width: 15%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 2;
+}
+#comfey:hover{
+    transform: translate(10px, 2%);
+}
+#talonflame{
+    position: absolute;
+    width: 18%;
+    left: -3%;
+    top: 50%;
+    z-index: 2;
+}
+#talonflame:hover{
+    transform: translate(10px, 2%);
+}
+#sableye{
+    position: absolute;
+    width: 18%;
+    left: 60%;
+    top: -2%;
+    z-index: 0;
+}
+#sableye:hover{
+    transform: translate(10px, 2%);
+}
+
+
+#scizor{
+    position: absolute;
+    width: 150%;
+    left: 210%;
+    top: 0%;
+    z-index: 2;
+}
+#scizor:hover{
+    transform: translate(10px, 2%);
+}
+#tyranitar{
+    position: absolute;
+    width: 120%;
+    right: 120%;
+    top: 0%;
+    z-index: 2;
+}
+#tyranitar:hover{
+    transform: translate(10px, 2%);
+}
+#slowbro{
+    position: absolute;
+    width: 30%;
+    left: 3%;
+    bottom: 0%;
+    z-index: 2;
+}
+#slowbro:hover{
+    transform: translate(10px, 2%);
+}
+
+
+#brilho{
+    position: absolute;
+    width: 200%; 
+    z-index: 0;
+}
+
+.fundoBuilds .card {
+    border-radius: 5%;
+    background-color: #511258;
+    color: rgb(224, 169, 238);
+
+}
+
+.fundoBuilds .card img{
+    border-radius: 40%;
+
+}
+
+.fundoClasses .card {
+    border-radius: 5%;
+
+}
+
+.fundoClasses .card img{
+    border-radius: 5%;
+
+}
+
+#cardClasses{
+    background-color: rgb(91, 1, 133);
+    color: rgb(255, 255, 255);
+}
+
+
+.fundoVideo{
+    position: relative;
+    width: 100%; 
+    height: 70%;
+    background-color: rgb(65, 17, 95);
+    z-index: -1;
+}
+.cardVideo{
+    position: absolute;
+    width: 20%; 
+    left: 30%;
+    top: 20%;
+}
+
+.card{
+    z-index: 1;
+}
+
+.card-body{
+    z-index: 2;
+}
+
+.cardNoticias{
+    background-color: #ffffff;
+}
+
+
+#cardNoticias{
+    margin: auto;
+    margin-bottom: 15%;
+    width: 55%;
+    border-radius: 50px;
+    background-color: rgb(91, 1, 133);
+
+}
+
+#rodape{
+    position: absolute;
+    color: #ffffff;
+    bottom: 5%;
+    right: 8%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#status{
+    position: absolute;
+    bottom: 12%; 
+    right: 17%;
+    width: 6%;
+}
