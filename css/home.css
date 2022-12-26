@@ -455,3 +455,11 @@ body {
 }
 
 
+#textoMobileCarrossel, #textoMobileCarrossel2, #textoMobileCarrossel3{
+    display: block; 
+    background-color: #360238; 
+    border-radius: 20px; 
+    width: 80%; 
+    margin: auto;
+    z-index: 1;
+}
