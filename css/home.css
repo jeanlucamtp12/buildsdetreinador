@@ -2,21 +2,28 @@ body {
     width: 100vw;
     height: 100vh;
     background: linear-gradient( #5e0161, #53025a)repeat;
-
     overflow-x: hidden;
-   
 
+
+}
+
+.tela {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
 
 #brilho{
     position: absolute;
-    width: 130%; 
+    width: 200%; 
     z-index: 0;
 }
 
 #brilho2{
-    position: absolute;
-    width: 130%; 
+    position: relative;
+    width: 200%; 
     z-index: 0;
 }
 
@@ -47,9 +54,7 @@ body {
 }
 
 .fundoNoticias{
-    position: relative;
-    width: 100%;
-    height: 90%;
+    position: relative;    
     background-color: rgb(50, 2, 82);
 }
 
@@ -59,22 +64,15 @@ body {
 
 .fundoBuilds{
     position: relative;
-    width: 100%;
-    height: 90%;
     background-color: rgb(42, 0, 70);
-    z-index: 1;
 }
-.fundoClasses{
+.fundoClasses{    
     position: relative;
-    width: 100%;
-    height: 90%;
     background-color: rgb(72, 23, 102);
 }
 
 .fundoRodape{
     position: relative;
-    width: 100%;
-    height: 90%;
     background-color: rgb(38, 0, 65);
 }
 
@@ -84,9 +82,8 @@ body {
     margin-left: 6%;
     width: 18%;
     font-family: fantasy;
-    display: inline-block; margin-top: 3%;
-    margin-left: 6%;
-    padding: 10px 30px;
+    display: inline-block;
+    padding: 0.2% 0.1%;
     background-color:  #510058;
     color: rgb(255, 255, 255);
     border-radius: 90px;
@@ -99,9 +96,10 @@ body {
     margin-top: 3%;
     margin-left: 6%;
     width: 18%;
+    font-size: 2rem;
     font-family: fantasy;
-    display: inline-block;
-    padding: 10px 30px;
+    padding: 0.2% 0.1%;
+
     background-color:  #510058;
     color: rgb(255, 255, 255);
     border-radius: 90px;
@@ -115,7 +113,7 @@ body {
     width: 18%;
     font-family: fantasy;
     display: inline-block;
-    padding: 10px 30px;
+    padding: 0.2% 0.1%;
     background-color:  #510058;
     color: rgb(255, 255, 255);
     border-radius: 90px;
@@ -129,7 +127,7 @@ body {
     width: 18%;
     font-family: fantasy;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 0.2% 0.1%;
     background-color:  #510058;
     color: rgb(255, 255, 255);
     border-radius: 90px;
@@ -167,7 +165,7 @@ body {
     position: absolute;
     width: 18%;
     left: -5%;
-    top: 50%;
+    bottom: 5%;
     z-index: 2;
 }
 #wiggly:hover{
@@ -230,7 +228,7 @@ body {
     position: absolute;
     width: 18%;
     left: -3%;
-    top: 50%;
+    bottom: 8%;
     z-index: 1;
 }
 #talonflame:hover{
@@ -240,7 +238,7 @@ body {
     position: absolute;
     width: 18%;
     left: 60%;
-    top: -2%;
+    bottom: 65%;
 }
 #sableye:hover{
     transform: translate(10px, 2%);
@@ -249,7 +247,7 @@ body {
 
 #scizor{
     position: absolute;
-    width: 150%;
+    width: 160%;
     left: 210%;
     top: 0%;
     z-index: 2;
@@ -259,9 +257,9 @@ body {
 }
 #tyranitar{
     position: absolute;
-    width: 110%;
+    width: 120%;
     right: 120%;
-    top: 5%;
+    bottom: 10%;
     z-index: 1;
 }
 #tyranitar:hover{
@@ -277,6 +275,48 @@ body {
 #slowbro:hover{
     transform: translate(10px, 2%);
 }
+
+@media screen and (max-width: 800px) {
+
+    .card img{
+        width: 40%;
+        margin: auto;
+        
+    }
+    .card{
+        width: 70%;
+        margin: auto;
+    }
+    .classes, .noticias, .builds, .video{
+        width: 28%;
+        font-size: 1.4rem;
+    }
+
+    #brilho{
+        display: none;
+    }
+
+    #iframe{
+        width: 460%;
+        position: relative;
+        right: 140%;
+    }
+    #status, #logo{
+        display: none;
+    }
+    #navbar1, #navbar2{
+        width: 2%;
+    }
+
+
+
+
+    #slowbro, #tyranitar, #scizor, #sableye, #talonflame, #comfey, #dragapult, #eldegoss, #greedent, #venusaur, #wiggly, #clefable{
+      display: none;
+    }
+ 
+}
+
 
 
 
@@ -311,23 +351,20 @@ body {
 
 .fundoVideo{
     position: relative;
-    width: 100%; 
-    height: 70%;
     background-color: rgb(65, 17, 95);
 }
 .cardVideo{
-    position: absolute;
+    position: relative;
     width: 20%; 
     left: 30%;
-    top: 20%;
+    bottom: 10%;
 }
-
-
 
 .cardNoticias{
     background-color: #ffffff;
 }
 /*
+
 
 #cardNoticias{
     margin: auto;
@@ -406,7 +443,9 @@ body {
 
 #simboloNovidades{
     position: absolute;
-    top: -18%;
+    top: 0%;
     left: 0%;
     width: 15%;
 }
+
+
